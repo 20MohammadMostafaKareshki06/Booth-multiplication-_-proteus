@@ -19,3 +19,29 @@
 ### نام: محمدمصطفی کارشکی
 ### تاریخ: 2025/10/25
 ### گیت هاب: https://github.com/20MohammadMostafaKareshki06/Booth-multiplication-_-proteus.git
+
+## Project Description
+#### This project implements the Booth multiplication algorithm for signed binary numbers, designed and simulated in Proteus software.
+#### The main goal is to demonstrate how binary multiplication is performed using Booth’s optimized method and to observe its behavior in a digital simulation environment.
+## Features
+#### Supports signed binary numbers
+
+#### Reduces the number of addition operations compared to traditional methods
+
+#### Simple and logical circuit design in Proteus
+
+## How the Algorithm Works
+#### The Booth algorithm examines two bits of the multiplier in each iteration to determine whether to perform an addition, subtraction, or shift operation.
+#### This approach minimizes the number of operations and increases speed compared to regular binary multiplication.
+
+#### At the beginning, the (logic toggle) signal named test must be set to 0.
+#### After the first clock pulse, the test signal should change to 1 (and remain unchanged afterward).
+#### This signal controls the MUX condition — initially, it checks the first 4 bits of the second number, and in subsequent steps, it evaluates the updated value.
+#### The clock signal should be toggled manually four times to complete the multiplication process.
+
+## Author
+### Name: Mohammad Mostafa Kareshki
+
+### Date: 2025/10/25
+
+### GitHub: https://github.com/20MohammadMostafaKareshki06/Booth-multiplication-_-proteus.git
