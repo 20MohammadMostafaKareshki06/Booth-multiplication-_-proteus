@@ -18,4 +18,4 @@
 ## نویسنده
 ### نام: محمدمصطفی کارشکی
 ### تاریخ: 2025/10/25
-### لینک گیت هاب: https://github.com/20MohammadMostafaKareshki06/Booth-multiplication-_-proteus.git
+### گیت هاب: https://github.com/20MohammadMostafaKareshki06/Booth-multiplication-_-proteus.git
