@@ -10,10 +10,6 @@
 ## نحوه ی انجام ضرب الگوریتم
 #### الگوریتم Booth با بررسی دو بیت از ضریب (Multiplier) در هر مرحله، تصمیم می‌گیرد که آیا باید جمع، تفریق یا شیفت انجام شود.
 #### این روش باعث کاهش تعداد عملیات و افزایش سرعت نسبت به ضرب باینری معمولی می‌شود.
-#### در ابتدا باید (logic toggle (test باید مقدار صفر داشته باشد.
-#### بعد از اولین کلاک باید مقدارش test تغییر کند و یک شود (بعد از این دیگر نیازی به تغییر test نیست).
-#### این کار برای شرط MUX است که در ابتدا باید 4 بیت عدد دوم رو بررسی کند ولی برای مراحل بعدی باید مقدار آپدیت شده بررسی شود.
-
 #### کلاک ها نیز باید 4 بار و به صورت دستی تغییر کند.
 ## نویسنده
 ### نام: محمدمصطفی کارشکی
@@ -33,10 +29,6 @@
 ## How the Algorithm Works
 #### The Booth algorithm examines two bits of the multiplier in each iteration to determine whether to perform an addition, subtraction, or shift operation.
 #### This approach minimizes the number of operations and increases speed compared to regular binary multiplication.
-
-#### At the beginning, the (logic toggle) signal named test must be set to 0.
-#### After the first clock pulse, the test signal should change to 1 (and remain unchanged afterward).
-#### This signal controls the MUX condition — initially, it checks the first 4 bits of the second number, and in subsequent steps, it evaluates the updated value.
 #### The clock signal should be toggled manually four times to complete the multiplication process.
 
 ## Author
